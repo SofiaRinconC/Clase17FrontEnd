@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="CSS/Encuesta.css">
+
+</head>
+<body>
+    <header>
+        <section class="header1">
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class="header2">
+            <img src="img/Logo.png" alt="Logo">
+            <span class="titulo">Nombre de Tienda</span>
+        </section>
+        <section class="fondoHeader3" >
+            <a class="header3" href="Contacto.html">Contacto</a>
+            <a class="header3" href="Registro.html">Registrarme</a>
+            <a class="header3"  href="index.html">Ingresar</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="caja1">
+            <h1>¡Añadí tu super!</h1>
+            <p class="letraEncuesta">Agrega tu personaje favorito completando las opciones.</p>
+        </section>
+        <div>
+            <section>
+            <form action="Encuesta" method="GET" >
+                <div class="caja">
+                    <label  class="letraNombre" class="caja" for="nombre">*Nombre</label>
+                    <input class="nombreEncuesta" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                </div>
+                <section>
+                    <div class="caja" >
+                        <label class="letraFecha" for="date">Fecha</label>
+                        <input class="fechaEncuesta" type="date" >
+                    </div>
+                </section>
+                <section>
+                    <div class="caja">
+                        <label for="descripcion"></label>
+                        <textarea class= "descripcionEncuesta" name="descripcion" id="descripcion"> </textarea>
+                    </div>
+                </section>
+            </section>
+        </div>
+        <div class="caja2">
+                <section>
+                    <label for="especies">*Especies</label>
+                    <input  class="especiesEncuesta" placeholder="Especie" list="especies">
+                    <datalist id="especies" name="especie" >
+                        <option name="especie" value=""> Deviants</option>
+                        <option name="especie" value="">The Stark</option>
+                        <option name="especie" value="">Luphomoids</option>
+                        <option name="especie" value="">Centaurians</option>
+                        <option name="especie" value="">Inhumanos Universales</option>
+                        <option name="especie" value="FC">Flora Colossus</option>
+                        <option name="especie" value="KL">Klyntar</option>
+                        <option name="especie" value="KR">Kronans</option>
+                        <option name="especie" value="AT">Atlanteans</option>
+                        <option name="especie" value="">Xandarians</option>
+                        <option name="especie" value="TB">The Brood</option>
+                        <option name="especie" value="SA">Sakaarans</option>
+                        <option name="especie" value="BA">Badoon</option>
+                    </datalist>
+                </section>
+                <section>
+                    <div class="fotoEncuesta" class="caja">
+                        <label class="letraFoto" for="file">Agregar foto</label>
+                        <input class="cajaFoto" type="file" >
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <p >Poderes</p>
+                        <label><input class="poderes" type="checkbox" id="poder1" value="volar"> Volar</label><br>
+                    </div>
+                    <div>
+                        <label><input class="poderes" type="checkbox" id="poder2" value="SI"> Superinteligencia</label><br>
+                    </div>
+                    <div>
+                        <label><input class="poderes" type="checkbox" id="poder3" value="volar"> Vista de rayo láser</label><br>
+                    </div>
+                    <div>
+                        <label><input class="poderes" type="checkbox" id="poder4" value="volar"> Billetera gorda</label><br>
+                        <hr>
+                    
+        </div>
+                </section>
+                <section>
+                    <div>
+                        <p >Tipo de personaje</p>
+                        <label><input class="personaje" type="radio" name="personaje" value="tipo1"> Héroe/Heroina </label><br>
+                    </div>
+                    <div>
+                        <label><input class="personaje" type="radio" name="personaje" value="tipo2"> Villano / Villana </label><br>
+                    </div>
+                </section>
+            </div>
+                </form>
+                <section>
+                        <button  class="botonEncuesta" type="button"> Añadir </button>
+                </section>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <p class="footer1">Todos los derechos reservados a FRONT END 1</p>
+        </section>
+    </footer>
+</body>
+</html>

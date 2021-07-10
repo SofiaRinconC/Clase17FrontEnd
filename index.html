@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/General.css">
+    <link rel="stylesheet" href="CSS/login.css">
+
+</head>
+<body>
+    <header>
+        <section class="header1">
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class="header2">
+            <img src="img/Logo.png" alt="Logo">
+            <span class="titulo">Nombre de Tienda</span>
+        </section>
+    </header>
+    <main>
+        <section class="centrarlogin" >
+            <p class="titulologin">Login</p>
+        </section>
+        <section>
+            <form  class="centrarlogin" action="Login" method="GET">
+                <div class="cajas">
+                    <label for="usuario" ></label>
+                    <input class="bordecajas"type="email" name="usuario" id="usuario" placeholder="Usuario" required>
+                </div>
+                <div class="cajas">
+                    <Label for="contraseña"></Label>
+                    <input class="bordecajas" type="password" name="contraseña" id="contraseña" placeholder="Contraseña" minlength="4" maxlength="10" required>
+                </div>
+            </form>
+        </section>
+        <section>
+            <div class="centrarlogin">
+                <input type="submit" value="Entrar" class="entrarlogin">
+            </div>
+            <span class="centrarlogin1" class="crearcuenta" >
+                <a href="Registro.html">¿No tienes una cuenta?</a>
+                <span>Registrarme</span>
+            </span>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p  class="footer1">Todos los derechos reservados a FRONT END 1</p>
+            <a  href="Contacto.html">Contactanos</a>
+        </section>
+
+    </footer>
+</body>
+</html>

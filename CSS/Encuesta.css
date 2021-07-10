@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/*Estilos Header*/
+.header1{
+    background-color: #1CD1B0;
+    text-align: left;
+    padding-left: 10px;
+    background-size: cover;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.header2{
+    background-color: #00669F;
+    position: relative;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+.fondoHeader3{
+    background-color: #001D2D;
+    padding: 8px;
+}   
+.header3{
+    font-family:'Roboto', sans-serif;
+    position: relative;
+    left: 1050px;
+    padding: 10px;
+    
+}
+.header3:link{
+    color:rgb(255, 255, 153);
+}
+.header3:visited{
+    color: rgb(231, 195, 195);
+}
+
+.titulo{
+    color:#FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    /*left: 129;*/
+    top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*EStilos Main*/
+main{
+    background-color: #00669F;
+    border-radius: 50px;
+    padding:50px;
+    width: 1000px;
+    height: 870px;
+    margin: 100px 100px 0px 200px;
+}
+.caja1{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+.letraEncuesta{
+    font-size: 20px;
+    line-height: 28px;
+}
+.caja{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    line-height: 38px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 100px;
+}
+.nombreEncuesta {
+    font-family: 'Inter', sans-serif;
+    padding: 15px 15px 15px 8px;
+    border-radius: 15px;
+    width: 350px;
+    height: 60px;
+}
+.letraNombre{
+    position: relative;
+    margin-top: 40px;
+}
+.fechaEncuesta{
+    font-family: 'Inter', sans-serif;
+    padding: 15px 15px 15px 8px;
+    border-radius: 15px;
+    width: 350px;
+    height: 60px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.letraFecha{
+    position: relative;
+    margin-top: 30px;
+}
+.descripcionEncuesta{
+    font-family: 'Inter', sans-serif;
+    padding: 15px 15px 15px 8px;
+    width: 350px;
+    height: 307px;
+}
+
+.caja2{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    line-height: 38px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 480px;
+    top: -575px;
+}
+.especiesEncuesta{
+    font-family: 'Inter', sans-serif;
+    padding: 15px 15px 15px 8px;
+    border-radius: 15px;
+    width: 350px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.fotoEncuesta{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 15px 15px 8px;
+    border-radius: 15px;
+}
+.letraFoto{
+    position: relative;
+    margin-top: 30px;
+}
+.cajaFoto{
+    border: black;
+    height: 60px;
+}
+
+.poderes, .personaje{
+    font-family: 'Karla', sans-serif;
+    width: 40px;
+    height: 20px;
+
+}
+.botonEncuesta{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: -530px;
+    margin-left: 250px;
+    background-color:#1CD1B0;
+    border-radius: 10px;
+    border:#1CD1B0 1px ;
+    height: 80px;
+    width: 500px;
+    font-weight: bold;
+}
+/*Estilos Footer*/
+footer{
+    background-color:#00669F;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    top: 500px;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer1{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

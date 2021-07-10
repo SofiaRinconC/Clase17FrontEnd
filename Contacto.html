@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="CSS/General.css">
+    <link rel="stylesheet" href="CSS/Contacto.css">
+
+</head>
+<body>
+    <header>
+        <section class="header1">
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class="header2">
+            <img src="img/Logo.png" alt="Logo">
+            <span class="titulo">Nombre de Tienda</span>
+        </section>
+    </header>
+    <main>
+        <section>
+            <section class="centrarContacto">
+                <p class="tituloContacto">Contacto</p>
+            </section>
+            <form class="centrarContacto" action="Contacto" method="GET">
+                <div class="cajasContacto">
+                    <label for="Nombre" ></label>
+                    <input class="bordecontacto"  type="text" name="Nombre" id="Nombre" placeholder="Nombre y Apellido" required>
+                </div>
+                <div class="cajasContacto">
+                    <label for="email" ></label>
+                    <input  class="bordecontacto" type="email" name="email" id="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="cajasContacto2">
+                    <label for="comentarios" ></label>
+                    <textarea  name="comentarios" id="comentarios" sentences minlength="15" maxlength="500" rows="18" cols="68" required></textarea>
+                </div>
+            </form>
+            <section>
+                <div class="centrarContacto1">
+                    <button type="reset" class="resetearContacto"> Resetear</button>
+                    <button type="submit" class="entrarContacto">Entrar</button>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <section>
+            <p class="footer1">Todos los derechos reservados a FRONT END 1</p>
+            <a href="Registro.html">Registrate</a>
+        </section>
+
+    </footer>
+</body>
+</html>
